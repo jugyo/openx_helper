@@ -1,3 +1,3 @@
 require 'openx'
 require 'openx_helper'
-ApplicationHelper.__send__(:include, OpenxHelper::ApplicationHelperExtensions)
+ApplicationHelper.__send__(:include, OpenXHelper::ApplicationHelperExtensions)

@@ -1,4 +1,4 @@
-module OpenxHelper
+module OpenXHelper
   module ApplicationHelperExtensions
     def openx_banner(zone_id)
       unless session["OAID"]
