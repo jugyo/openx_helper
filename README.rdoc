@@ -1,0 +1,31 @@
+= OpenXHelper
+
+== Description:
+
+OpenXHelper is a rails plugin that is a helper for the OpenX.
+
+== Features:
+
+* Generate a html code for banner ad.
+
+== Install:
+
+ ./script/plugin install xxx
+
+== Configuration:
+
+config/environment.rb:
+
+ OpenX::Services::Base.configuration = {
+   'root' => 'http://localhost/openx/www/',
+ }
+
+== Generate a banner:
+
+ <%= openx_banner(zone_id) %>
+
+== Requirements
+
+* openx
+
+ gem install openx
