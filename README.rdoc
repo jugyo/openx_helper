@@ -10,7 +10,7 @@ OpenXHelper is a rails plugin that is a helper for the OpenX.
 
 == Install:
 
- ./script/plugin install xxx
+ ./script/plugin install git://github.com/jugyo/openx_helper.git
 
 == Configuration:
 
