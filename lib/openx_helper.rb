@@ -7,7 +7,7 @@ module ApplicationHelper
       else
         oaid = session["OAID"]
       end
-      OpenX::Services::Zone.deliver(zone_id, request.remote_ip, {"OAID" => oaid})["html"]
+      OpenX::Services::Zone.deliver(zone_id, request.remote_ip, {"OAID" => oaid})
     end
   end
   include OpenXHelper
